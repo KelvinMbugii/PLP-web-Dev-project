@@ -8,21 +8,21 @@ A fully responsive travel website showcasing Batian Travellers' services, includ
 /batian-travelers
 │
 ├── /Assets # Directory containing image assets
-│ ├── Travels1.jpg # Background image for the header
-│ ├── Travels3.jpg # Background image for the CTA section
-│ ├── Travels5.jpg # Background image for the sub-header section
-│ ├── Travels6.jpg # Image for ideal places section
-│ ├── Travels7.jpg # Image for ideal places section
-│ ├── Travels8.jpg # Image for ideal places section
+│ ├── Travels1.jpg  Background image for the header
+│ ├── Travels3.jpg  Background image for the CTA section
+│ ├── Travels5.jpg  Background image for the sub-header section
+│ ├── Travels6.jpg  Image for ideal places section
+│ ├── Travels7.jpg  Image for ideal places section
+│ ├── Travels8.jpg  Image for ideal places section
 │ └── User.png # Testimonial user image
 │
-├── index.html # Main page of the website
-├── About.html # About page
-├── Offers.html # Offers page
-├── contact.html # Contact page
-├── /index.css # Main CSS file containing styles for all sections
-├── script.js # JavaScript file for menu toggle, theme switcher, and form handling
-└── README.md # Project documentation (this file)
+├── index.html  Main page of the website
+├── About.html  About page
+├── Offers.html  Offers page
+├── contact.html  Contact page
+├── /index.css  Main CSS file containing styles for all sections
+├── script.js  JavaScript file for menu toggle, theme switcher, and form handling
+└── README.md  Project documentation (this file)
 
 ## Key Features
 
@@ -64,6 +64,6 @@ A fully responsive travel website showcasing Batian Travellers' services, includ
 
 1. Clone the repository:
    ```bash
-   git clone 
+git clone https://github.com/KelvinMbugii/PLP-web-Dev-project.git
 
    
