@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Responsive Website</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <button id="theme-toggle" aria-pressed="false">
+        Dark Mode
+      </button>
+      
+    <section class="sub-header">
+         <nav>
+            <a href="index.html"><img src="" alt="Company_Logo"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="#" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Offers.html">OFFERS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="#" onclick="showMenu()"></i>
+         </nav>
+        <h1>Contact Us</h1>
+    </section>  
+    <!---------------CONTACT US------------------>
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d819428.592478759!2d36.587750063558154!3d-1.2036233255275217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1747055997923!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Nairobi, Kenya</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+254 712381769</h5>
+                        <p>Monday to saturday, 8AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>batiantravelers@gmail.org</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form id="form">
+                    <div class="field">
+                      <label for="name">name</label>
+                      <input type="text" name="name" id="name">
+                    </div>
+                    <div class="field">
+                      <label for="time">time</label>
+                      <input type="text" name="time" id="time">
+                    </div>
+                    <div class="field">
+                      <label for="message">message</label>
+                      <input type="text" name="message" id="message">
+                    </div>
+                    <div class="field">
+                      <label for="title">title</label>
+                      <input type="text" name="title" id="title">
+                    </div>
+                    <div class="field">
+                      <label for="email">email</label>
+                      <input type="text" name="email" id="email">
+                    </div>
+                  
+                    <input type="submit" id="button" value="Send Email" >
+                  </form>
+                  
+            </div>
+        </div>
+    </section>
+    <!---------- Footer --------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>At Batian Travellers, we're passionate about making travel affordable, exciting, and stress-free.<br>
+           We connect you to the most beautiful destinations with unbeatable prices, free hotel bookings, 
+           and personalized experiences all through our easy-to-use platform, BatianTravelers.com.<br>
+           Your journey begins with us!</p>
+            <div class="icons">
+                <i class="socials"></i>
+                <i class="socials"></i>
+                <i class="socials"></i>
+                <i class="socials"></i>
+            </div>
+            <p>copyright &copy; 2025| Made with love by Nelion designs | Bold visions striking designs.</p>
+    </section>
+    
+    <script src="index.js"></script>
+    <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('8sqdsOZ0-Hs2xYsV4')
+</script>
+</body>
+</html>
