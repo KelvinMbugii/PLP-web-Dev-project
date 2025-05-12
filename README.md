@@ -64,6 +64,6 @@ A fully responsive travel website showcasing Batian Travellers' services, includ
 
 1. Clone the repository:
    ```bash
-git clone https://github.com/KelvinMbugii/PLP-web-Dev-project.git
+   git clone https://github.com/KelvinMbugii/PLP-web-Dev-project.git
 
    
